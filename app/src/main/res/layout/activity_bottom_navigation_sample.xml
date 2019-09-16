@@ -17,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
+        android:elevation="30dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
 
@@ -24,7 +25,6 @@
             android:id="@+id/bottom_navigation_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:elevation="40dp"
             app:menu="@menu/bottom_navigation_view_menu" />
 
     </com.google.android.material.appbar.AppBarLayout>
