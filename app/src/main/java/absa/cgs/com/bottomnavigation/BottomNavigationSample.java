@@ -23,8 +23,8 @@ public class BottomNavigationSample extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom_navigation_sample);
         initMain();
-        Intent intent = new Intent(BottomNavigationSample.this, NavigationDrawer.class);
-        startActivity(intent);
+       // Intent intent = new Intent(BottomNavigationSample.this, NavigationDrawer.class);
+        //startActivity(intent);
     }
 
 
